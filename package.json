@@ -1,6 +1,17 @@
 {
+  "name": "backend-course-2025-4",
+  "version": "1.0.0",
+  "description": "Лабораторна робота №4 - HTTP сервер на Node.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js -i bank_managers.json -h 127.0.0.1 -p 3000",
+    "dev": "nodemon main.js -i bank_managers.json -h 127.0.0.1 -p 3000"
+  },
   "dependencies": {
     "commander": "^14.0.3",
     "fast-xml-parser": "^5.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
